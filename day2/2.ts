@@ -10,16 +10,8 @@ const win = 'win'
 const lose = 'lose'
 const draw = 'draw'
 
-type Win = typeof win
-type Lose = typeof lose
-type Draw = typeof draw
-
-type Rock = typeof rock
-type Paper = typeof paper
-type Scissors = typeof scissors
-
-type Strategy = Rock | Paper | Scissors
-type Outcome = Win | Lose | Draw
+type Strategy = typeof rock | typeof paper | typeof scissors
+type Outcome = typeof win | typeof lose | typeof draw
 
 type StrategyMap = {
   [key: string]: Strategy
