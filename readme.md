@@ -1,0 +1,1 @@
+to run: cd into the day folder and run `deno task start`

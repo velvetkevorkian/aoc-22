@@ -1,5 +1,3 @@
-// deno run --allow-read 2.ts
-
 const input = await Deno.readTextFile('./input.txt')
 
 const rock = 'rock'

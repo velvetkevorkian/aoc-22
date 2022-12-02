@@ -1,5 +1,3 @@
-// deno run --allow-read 1.ts
-
 const data = await Deno.readTextFile('./input.txt')
 const chunks = data.toString().split('\n\n')
 
