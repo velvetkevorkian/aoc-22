@@ -1,6 +1,4 @@
-import { readFile } from 'node:fs/promises'
-
-const input = await readFile('./input.txt', { encoding: 'utf8' })
+const input = await Deno.readTextFile('./input.txt')
 
 const rock = 'rock'
 const paper = 'paper'

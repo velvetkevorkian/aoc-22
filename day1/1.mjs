@@ -1,6 +1,5 @@
-import { readFile } from 'node:fs/promises'
+const data = await Deno.readTextFile('./input.txt')
 
-const data = await readFile('./input.txt', { encoding: 'utf8' })
 const chunks = data.toString().split('\n\n')
 
 const totals = chunks
